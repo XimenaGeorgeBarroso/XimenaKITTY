@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recursos/css/style7.css">
+</head>
+<body>
+    <nav class="contenedor">
+        <article class="logotipo">
+            <img src="recursos/img/7e596fc69aece5af9e55f8e367a61f7b.jpg" width="50px" height="50px">
+        </article>
+        <article class="menu">
+            <ul>
+                <li><a href="sitioWeb7.html">Home</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </article>
+        <article class="botones">
+            <a href="formulario.html">
+                <button id="inicio" class="cajas" name="inicio">Inicio</button>
+            </a>  &nbsp;
+            <a href="registro.html">
+                <button id="registro" class="cajas" name="registro">Registro</button>
+            </a>
+        </article>
+    </nav>
+    <h2>Formulario de Registro</h2>
+    <div id="formul">
+        <form action="mailTo:ezveydyvelaz1314@gmail.com" id="contacto" method="post">
+            <table>
+                
+                    <tr>
+                        <p>
+                            <label for="name"><h5>Nombre:</h5></label>
+                            <input type="text" required autofocus placeholder="Ingrese su Nombre">
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label for="correo"><h5> Correo Electronico:</h5> </label>
+                            <input type="email"  required autofocus placeholder="Ingrese Su correo">
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label for="mensaje"><h5>Comentario: </h5> </label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <input id="boton" type="submit" value="Enviar Datos">
+                        </p>
+                    </tr>
+            </table>    
+        </form>
+    </div>
+</body>
+</html>

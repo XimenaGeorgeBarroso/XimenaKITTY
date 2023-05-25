@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="produc.html">Productos</a></li>
+        <li><a href="serv.html">Servicios</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="formu.html">Contacto</a></li>
+      </ul>
+      
+    
+    <h2>Formulario de Contacto</h2>
+    <div id="formul">
+        <form action="mailTo:ezveydyvelaz1314@gmail.com" id="contacto" method="post">
+            <table>
+                
+                    <tr>
+                        <p>
+                            <label for="name"><h5>Nombre:</h5></label>
+                            <input type="text" required autofocus placeholder="Ingrese su Nombre">
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label for="correo"><h5> Correo Electronico:</h5> </label>
+                            <input type="email"  required autofocus placeholder="Ingrese Su correo">
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label for="mensaje"><h5>Comentario: </h5> </label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <input id="boton" type="submit" value="Enviar Datos">
+                        </p>
+                    </tr>
+            </table>    
+        </form>
+    </div>
+
+</body>
+</html>

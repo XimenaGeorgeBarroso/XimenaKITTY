@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin: 5px auto;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    /* Para que se vaya ajustando */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logotipo{
+    width: 15%;
+}
+.menu{
+    width: 45%;
+}
+.botones{
+    width: 40%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedor .menu ul li{
+    display: inline-flex;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+.contenedor .menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(72, 113, 115);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(206, 81, 85);
+}
+.cajas{
+    background-color: rgb(175, 144, 139);
+    width: 150px;
+    height: 35px;
+    border: 1px silver solid;
+    border-radius: 5px;
+}
+.item{
+    width: 33.3%;
+    padding: 10px;
+    text-align: justify;
+}
+.producto{
+    width: 33.3%;
+    padding: 5px;
+}
+.cabecera{
+    text-align: center;
+    background: url("../img/images\ \(4\).jpg");
+    background-size: cover;
+    height: 400px;
+    padding-top: 140px;
+    font-size: 1.6em;
+    color: bisque;
+}
+.video{
+    margin-top: 10px;
+    width: 450;
+}
+.item2{
+    width: 33%;
+    text-align: justify;
+    border-right: 1px silver outset;
+    margin: 2px;
+    padding: 10px;
+}
+
+@media(max-width:600px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecera{
+        font-size: 1em;
+    }
+    .cabecera, .item, .producto, .item2, .video {
+        width: 100%;
+    }
+}
+
+
+button{
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecera{
+        font-size: 1em;
+    }
+    .cabecera, .item, .producto, .item2, .video {
+        width: 100%;
+    }
+}
+
+
+/* Formunlario */
+h2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#formul{
+    padding: 1% 25% 1% 25%;
+    margin: 2% 10% 5% 10%;
+    /* background-color: blanchedalmond; */
+}
+#formul p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration-style: solid;
+}
+#formul input{
+    width: 100%;
+}
+#formul textarea{
+    width: 100%;
+}
+#boton{
+    background-color: rgb(138, 144, 150);
+}
+#boton:hover{
+    background-color: rgb(172, 162, 209);
+}

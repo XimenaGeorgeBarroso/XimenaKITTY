@@ -1,0 +1,61 @@
+/* Selector universal, se utiliza para condiciones especiales */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    background-image: url("../images/dsBuffer.bmp.png");
+    /* Se usa para que no se repita la imagen */
+    background-repeat: no-repeat;
+    /* Se usa para que la imagen se acople al tamaño de pantalla */
+    background-size: cover;
+}
+#contenedor{
+    width: 90%;
+    margin: 2px auto;
+}
+
+#nave{
+    padding: 0% 20% 5% 20%;
+    margin: 2% 2% 2% 2%;
+    border: 3px;
+}
+#nave a{
+    padding: 2% 2% 2% 2%;
+    margin: 1% 1% 1% 1%;
+    width: 10%;
+    background-color: cadetblue;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+#nave a:hover{
+    background-color: azure;
+    color: brown;
+    border-radius: 2%;
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+article{
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 10px 20px 25px 50px;
+}
+p{
+    padding: 5px 50px;
+}
+
+
+.centrar{
+    width: 60%;
+    margin: 0px auto;
+    background-image: url(../images/dsBuffer.bmp.png);
+
+}
+
+
+

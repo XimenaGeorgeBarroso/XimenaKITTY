@@ -1,0 +1,56 @@
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tarjeta {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    perspective: 800px;
+  }
+  
+  .tarjeta .contenido {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .tarjeta .contenido img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .tarjeta .adelante {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .tarjeta .adelante-informacion {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .tarjeta:hover .contenido {
+    transform: rotateY(180deg);
+  }
+  

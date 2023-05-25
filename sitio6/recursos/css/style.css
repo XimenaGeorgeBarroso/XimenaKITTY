@@ -1,0 +1,76 @@
+/* Diseño flexible con flebox */
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+.contenedor{
+    display: flex;
+    /* flex-direction: column-reverse; */
+}
+
+.contenedor nav ul li{
+     
+    display: inline;
+    padding-right: 15px;
+
+}
+
+.contenedor nav a {
+
+    text-decoration: none;
+}
+
+.contenedor nav a:hover{
+
+    color: burlywood;
+}
+
+.contenedor .cabecera{
+    padding-top: 100px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 1.5em;
+    background-image: url('../imagenes/b593c400-abfe-40ad-8862-146fd629b9f0.jfif')   
+}
+
+
+p{
+    margin: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+
+}
+
+ .izq, .derecho, .main{
+    border-bottom: 1px silver solid;
+    margin: 2px;
+
+    
+}
+/* debemos aplicar una regla para que el contenido se adapte al dispositivo (media query) */
+
+@media (max-width:600){
+    div,.cabecera{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecera{
+      
+    }
+
+}
+
+

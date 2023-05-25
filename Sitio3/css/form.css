@@ -1,0 +1,86 @@
+h2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#formul{
+    padding: 1% 25% 1% 25%;
+    margin: 2% 10% 5% 10%;
+    /* background-color: blanchedalmond; */
+}
+#formul p{
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration-style: solid;
+}
+#formul input{
+    width: 100%;
+}
+#formul textarea{
+    width: 100%;
+}
+#boton{
+    background-color: rgb(111, 124, 135);
+}
+#boton:hover{
+    background-color: bisque;
+}
+
+/* Contenidos */
+#centro{
+    padding: 2% 3% 2% 3%;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+#centro table{
+    width: 140%;
+}
+#centro td{
+    padding: 1%;
+    width: 55%;
+}
+/* Porductos */
+#centro table{
+    padding: 2% 2% 2% 2%;
+    width: 80%;
+    margin: 2% 10% 2% 10%;
+}
+
+   /* Estilo de la barra de navegación */
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f0fc;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #a89dc8;
+  }
+  
+  /* Estilo del título */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilo de la frase */
+  p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+  }

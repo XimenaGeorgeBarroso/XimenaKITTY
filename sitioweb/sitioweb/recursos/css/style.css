@@ -1,0 +1,43 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.2em;
+    background-size: 400px 400px;
+    background-image: url("../imgs/unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contenedor{
+    width: 90%;
+    margin: 2px auto;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  article{
+    margin-top: 11px;
+    border: 1px solid silver;
+    border-radius: 18px;
+  }
+
+
+  p{
+    padding: 5px 50px;
+  }
